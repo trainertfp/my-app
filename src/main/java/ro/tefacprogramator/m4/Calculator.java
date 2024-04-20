@@ -22,4 +22,9 @@ public class Calculator {
         return a * b;
     }
 
+    public static int doubleNumber(int a) {
+        return a * 2;
+    }
+
+
 }
