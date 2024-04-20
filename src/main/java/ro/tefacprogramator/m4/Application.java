@@ -5,8 +5,10 @@ public class Application {
     public static void main(String[] args) {
         System.out.println("New program");
 
-        int rez = Calculator.add(100, 45);
+        int rezAdd = Calculator.add(100, 45);
+        System.out.println("rez add = " + rezAdd);
 
-        System.out.println("rez = " + rez);
+        int rezSub = Calculator.subtract(100, 45);
+        System.out.println("rez = " + rezSub);
     }
 }
