@@ -19,5 +19,9 @@ public class Application {
 
         double rezMul = Calculator.multiply(6, 7);
         System.out.println("rezult multiply = " + rezMul);
+
+        int rezDouble = Calculator.doubleNumber(6);
+        System.out.println("result doubleNumber = " + rezDouble);
+
     }
 }
