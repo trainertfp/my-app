@@ -17,5 +17,8 @@ public class Application {
         double rezDiv = Calculator.divide(100, 45);
         System.out.println("rez divide = " + rezDiv);
 
+        double rezMul = Calculator.divide(100, 45);
+        System.out.println("rez multiply = " + rezMul);
+
     }
 }
