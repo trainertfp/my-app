@@ -10,5 +10,8 @@ public class Calculator {
         return a - b;
     }
 
+    public static double divide(double a, double b) {
+        return a / b;
+    }
 
 }
